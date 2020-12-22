@@ -41,8 +41,6 @@ module Year2020
       old_seating.flatten.count("#")
     end
 
-
-
     def part2(input)
       old_seating = input.split("\n").map {|row| row.split("")}
       new_seating = []
